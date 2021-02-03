@@ -1,10 +1,25 @@
-h1{
-    color: red;
+body{
+    position: relative;
+    cursor: none;
 }
-#circle{
-    width: 80px;
-    height: 80px;
-    border: 1px solid #3c2946;
-    position:fixed;
-    border-radius:50%;
-  }
+.cursor,
+.follower{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: none;
+    pointer-events: none;
+}
+.cursor{
+    width: 80x;
+    height: 8px;
+    background-color: #000;
+    z-index: 1001;
+}
+.follower{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    z-index: 1000;
+}
