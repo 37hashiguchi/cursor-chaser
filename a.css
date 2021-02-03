@@ -1,4 +1,4 @@
-body{
+/* body{
     position: relative;
     cursor: none;
 }
@@ -22,4 +22,103 @@ body{
     height: 40px;
     background-color: yellow;
     z-index: 1000;
+} */
+/* ------------------------------------------------------------------------- */
+/* #stalker {
+    pointer-events: none;
+    position: fixed;
+    top: -8px;     //座標調節（カーソル位置と円の中心を合わせる）
+    left: -8px;    //座標調節（カーソル位置と円の中心を合わせる）
+    width: 16px;   //マウスストーカーの直径
+    height: 16px;  //マウスストーカーの直径
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    transition: transform 0.2s, top, 0.5s, left 0.5s, width .5s, height .5s, background-color .5s;
+    transition-timing-function: ease-out;
+    z-index: 999;
+#stalker:hover{
+      top: -32px;     //大きさに合わせて座標調節
+      left: -32px;    //大きさに合わせて座標調節
+      width: 64px;
+      height: 64px;
+      transition: .5s;
+      background: rgba(255, 0, 0, 0.4);
+    }
+} */
+/* ------------------------------------------------------------------------- */
+/* .cursor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    width: 16px;   //マウスストーカーの直径
+    height: 16px;  //マウスストーカーの直径
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    clip-path: ellipse(100px 100px at 10% 10%);
+  } */
+
+  /* .follower {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: none;
+    pointer-events: none;
+  } */
+  /* ------------------------------------------------------------------------- */
+  /* .follower {
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    z-index: 1000;
+  } */
+/* ------------------------------------------------------------------------- */
+  /* body {
+    height: 100vh;
+    background: #000;
+    cursor: none;
 }
+
+a {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #fff;
+    cursor: none;
+}
+
+#cursor {
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    pointer-events: none;
+}
+
+#cursor.active {
+    transform: scale(0);
+}
+
+#stalker {
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: 0.2s;
+    opacity: .3;
+    pointer-events: none;
+}
+
+#stalker.active {
+    transform: scale(3);
+} */
+/* ------------------------------------------------------------------------- */
