@@ -1,11 +1,6 @@
 
     console.log("hello"); //※反映されているかテストしたら反映されていました
 
-    $(window).mousemove (function(e){
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-      　console.log(mouseX,mouseY);
-      })
 var mouseX=window.innerWidth/2,
 mouseY=window.innerHeight/2;
 var circle = { 
